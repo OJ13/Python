@@ -1,2 +1,9 @@
 Python
 
+Instalação pelo site: (https://www.python.org/)
+Com a Instalação voce consegue executar pelo Shell do próprio python, ou 
+criando arquivos no formato (.py) e executando pelo prompt com a váriavel 
+python.
+
+Váriaveis
+Variáveis não precisam de tipagem
