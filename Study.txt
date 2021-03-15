@@ -6,4 +6,16 @@ criando arquivos no formato (.py) e executando pelo prompt com a váriavel
 python.
 
 Váriaveis
-Variáveis não precisam de tipagem
+Variáveis não precisam de tipagem.
+
+Funções de Conversão básicas
+float(value)
+int(value)
+str(value)
+Conversão em  lista (append, remove, index, count, reverse)
+
+Objetos
+Para criação de objetos, é utilizado colchetes {}, de uma forma de chave e valor, muito semelhane a um JSON
+
+Condicionais
+É necessário dois pontos após o if e precisa ser IDENTADO, senão não funciona
