@@ -1,4 +1,5 @@
 Python
+(Resumo)
 
 Instalação pelo site: (https://www.python.org/)
 Com a Instalação voce consegue executar pelo Shell do próprio python, ou 
@@ -19,3 +20,20 @@ Para criação de objetos, é utilizado colchetes {}, de uma forma de chave e va
 
 Condicionais
 É necessário dois pontos após o if e precisa ser IDENTADO, senão não funciona
+
+------------
+Python é uma linguagem interpretada, e chamamos seus arquivos de scripts, podemos desenvolver ele, em um editor
+de texto(sublime, visual studio code, até mesmo no notepad).
+Para fins de estudo podemos usar o 'google Colab', podemos colocar códigos e executar por la mesmo, ele consegue
+executar scripts de python.
+
+
+
+
+
+
+
+
+
+
+
