@@ -26,7 +26,8 @@ Python é uma linguagem interpretada, e chamamos seus arquivos de scripts, podem
 de texto(sublime, visual studio code, até mesmo no notepad).
 Para fins de estudo podemos usar o 'google Colab', podemos colocar códigos e executar por la mesmo, ele consegue
 executar scripts de python.
-
+Em python tudo é objeto, então strings também são objetos, então para usar um método numa string é só colocar o
+ponto e chamar os métodos que gostaria
 
 
 

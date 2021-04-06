@@ -68,7 +68,47 @@ elif x == y:
 else:
     print("y menor que x")
 
+x = 1
 
+while x <= 10:
+    print(x)
+    x += 1
+
+lista = [1, 2 , 3, 4, 5]
+lista2 = ['Ola', 'Tudo bem', 'Bom dia']
+lista3 = [True, "correto", 9.88, "São Paulo FC"]
+
+for i in lista:
+    print(i)
+
+for i in lista2:
+    print(i)
+
+for i in lista3:
+    print(i)
+
+for i in range(10, 20, 2):  # de 10 à 20 e de 2 em 2
+    print(i)
+
+
+numero = input("Digite um número: ")
+print(numero)
+
+nome = input("Digite seu nome: ")
+print("Bem Vindo " + nome)
+
+tamanho = len(nome)
+print("Quantidade de Caracteres do nome " + str(tamanho))
+
+print(nome[0])
+print(nome[1])
+print(nome[0:5])
+print(nome.lower())
+print(nome.upper())
+print(nome.strip())
+print(nome.split(" "))
+print(nome.find("sma")) #Se ele não encontrar ele retorna -1
+print(nome.replace("Osmar", "OJ"))
 
 
 
