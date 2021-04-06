@@ -55,10 +55,18 @@ if(x < y and x != y):
 if(x < y or x == y):
     print("Or")
 
-if(not x == y):
+if not x == y:
     print("NOT")
 
+x = 1
+y = 2
 
+if x < y:
+    print("x menor que y")
+elif x == y:
+    print("x é igual a y")
+else:
+    print("y menor que x")
 
 
 
