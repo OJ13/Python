@@ -41,7 +41,7 @@ print(lista)
 num1 = int(input("Digite o primeiro número: "))
 operador = input("Digite o operador: ")
 num2 = int(input("Digite o segundo número: "))
-resultado = 0
+resultado = -1
 
 if operador == "+":
     resultado = num1 + num2
@@ -51,6 +51,10 @@ elif operador == "*":
     resultado = num1 * num2
 elif operador == "/":
     resultado = num1 / num2
+elif operador == "%":
+    resultado = num1 % num2
+elif operador == "**":
+    resultado = num1 ** num2
 else:
     print("Operador não encontrado")
 
