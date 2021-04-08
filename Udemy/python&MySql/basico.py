@@ -120,5 +120,3 @@ print(nome.replace("Osmar", "OJ"))
 
 
 
-
-

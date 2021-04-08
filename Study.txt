@@ -29,6 +29,9 @@ executar scripts de python.
 Em python tudo é objeto, então strings também são objetos, então para usar um método numa string é só colocar o
 ponto e chamar os métodos que gostaria
 
+Para importação dentro dos scripts métodos que quisermos usar utilizamos o ('from' {name} 'import' {function}),
+exemplo: from math import sqrt
+
 
 
 
