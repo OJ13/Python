@@ -68,6 +68,7 @@ elif x == y:
 else:
     print("y menor que x")
 
+### loops
 x = 1
 
 while x <= 10:
@@ -90,7 +91,7 @@ for i in lista3:
 for i in range(10, 20, 2):  # de 10 à 20 e de 2 em 2
     print(i)
 
-
+### input output - strings function
 numero = input("Digite um número: ")
 print(numero)
 
@@ -110,13 +111,52 @@ print(nome.split(" "))
 print(nome.find("sma")) #Se ele não encontrar ele retorna -1
 print(nome.replace("Osmar", "OJ"))
 
+### listas
+list1 = ["aaaa", "bbbb", "cccc"]
+list2 = [1,2,3,4,5,6,7,8,9]
+list3 = ["abacaxi", 2, 2.89, True]
 
+print("---------------")
+print(list1)
+print(len(list1)) #verificar tamamnho
 
+list1.append("dddddd")  #add item a lista
+print(list1)
 
+if 7 in list2:
+    print("7 esta na lista")
 
+del list1[2] #remover item da lista, item na posição 2
+print(list1)
 
+del list1[2:] #remover item da lista, 2 em diante
+print(list1)
 
+del list1[:] #remover item da lista, lista inteira
+print(list1)
 
+list4 = [5, 8, 1, 2, 88, 77, 99, 105, 36, 7, 6]
+list4.sort() #ordenar crescente
+print(list4)
+list4.sort(reverse=True) #ordenar decrescente
+print(list4)
+list4.reverse() #reversão da lista
+print(list4)
 
+### Dicionarios (Dictionary)
+meu_dicionario = {"A": "Ameixa", "B": "Bola", "C": "Cachorro"}
+print(meu_dicionario)
+print(meu_dicionario["A"])
 
+for chave in meu_dicionario:
+    print(chave + " - " + meu_dicionario[chave])
+
+for i in meu_dicionario.items():
+    print(i)
+
+for i in meu_dicionario.keys():
+    print(i)
+
+for i in meu_dicionario.values():
+    print(i)
 
