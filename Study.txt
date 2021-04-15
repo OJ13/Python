@@ -26,6 +26,10 @@ Abrir arquivos - usamos a função Open e ha 6 tipos de modo:
 # r -> Somente leitura, w -> modo escrito, a -> leitura e escrita, ao fim da linha
 # r+ -> leitura e escrita, w+ -> modo escrita(apaga a anterior), a+ -> leitura e escrita(abre arquivo para atualização)
 
+Funções, métodos
+Para criação de funções usamos a palavra reservada def, o nome do método, e parentes, com os parâmetros, exemplo:
+'def soma(x, y):'
+
 ------------
 Python é uma linguagem interpretada, e chamamos seus arquivos de scripts, podemos desenvolver ele, em um editor
 de texto(sublime, visual studio code, até mesmo no notepad).

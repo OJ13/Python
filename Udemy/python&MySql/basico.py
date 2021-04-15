@@ -160,3 +160,22 @@ for i in meu_dicionario.keys():
 for i in meu_dicionario.values():
     print(i)
 
+
+### Gerando numeros aleatorios
+import random
+
+numero = random.randint(0, 10) #randint escolhe um randomico entre 0 e 10
+print(numero)
+
+lista = [25, 47, 9, 8]
+numero = random.choice(lista) #choice - escolhe algum item da lista
+print(numero)
+
+
+
+
+
+
+
+
+
