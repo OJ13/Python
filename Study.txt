@@ -41,9 +41,23 @@ ponto e chamar os métodos que gostaria
 Para importação dentro dos scripts métodos que quisermos usar utilizamos o ('from' {name} 'import' {function}),
 exemplo: from math import sqrt
 
+List Comprehension
+Forma de usar uma função dentro de uma lista (list.py)
+-> y [valor_a_adicionar laço e conição]
 
+Enumerate
+Função para trazer uma listagem e seus índices sem precisar verificar posição, ela é já uma função que retorna o
+índice e o objeto (enumerate.py)
+-> for i, nome in enumerate(lista):
 
+Filter
+Função para filtrar uma lista com retorno em lista, passando os parametros função de filtro e listagem
+-> lista_pares = filter(pares, lista)
 
+Reduce
+Recebe uma lista e retorna um único valor, podemos passar uma função para ela, e a mesma trás o seu retorno, passando 
+dois parametros, uma função e uma lista. (reduce.py)
+Lembrando que ela tem que ser importada (from functools import reduce)
 
 
 
